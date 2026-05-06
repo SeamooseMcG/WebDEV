@@ -1,19 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8" />
-    <title>title</title>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="styles.css">
+
+   <title>Home</title>
+
 </head>
+
 <body>
-    <h1>Welcome to Seamus' Webpage!</h1>
-    <p>Hello, my name is Seamus <strong>(Shay-mis)</strong>, and I'm learning software development. I'm incredibly passionate about art and gaming! I love collaborating with my friends and spending time at the lake.</p>
-    <h2>My Preferred Hobbies</h2> <ul> <li>Gaming <em>(Virtual and Physical)</em></li> <li>Reading <em>(Usually Fiction)</em></li> <li>Making Art <em>(Many Kinds!)</em></li></ul>
-    <hr>
-    <h2>Here’s a sketch I drew:</h2> <br> <p> It's based on a moment from a Dungeons & Dragons campaign I was in!</p> <img src="https://media.discordapp.net/attachments/886178938005622786/1248844467813748746/Before_Impact.jpg?ex=6856d2cb&is=6855814b&hm=9385c8012977789c869b02b0530579d34fd9028575b749595bc51ebc59bd146f&=&format=webp&width=486&height=864" alt="A placeholder image"> 
-    <hr> 
-    <p>Check out one of my favorite websites!: <a href="https://www.discworldemporium.com/reading-order/" target="_blank">Interested in Terry Pratchett's <em>Discworld</em>?</a></p> 
-    <hr>
-    <p>I also enjoy:<br>Coding<br>Fishing<br>Watching movies</p> 
+
+   <header>
+
+      <h1>Adventure Assist</h1>
+      <h2 id="pagetitle">Title</h2>
+
+   </header>
+      
+   <nav>
+      <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="planner.html">Planner</a></li>
+         <li><a href="journal.html">Journal</a></li>
+         <li><a href="crypt.html">Crypt</a></li>
+      </ul>
+   </nav>
+
+
+<main>
+   <hgroup>
+   <h1 class="intro">Welcome to Adventure Assist!</h1>
+   <h2 class="tagline">A site dedicated to simplifying your notetaking!</h2>
+   </hgroup>
+
+   <h2>Would you like to:</h2>
+
+   <div class="box">
+
+   
+   <a href="planner.html">
+      <div class="pagebutton" id="planbutton">
+         <h3>Plan your adventuring week?</h3>
+         <p>Use the planner to track important events and ongoing effects.</p>
+      </div>
+   </a>
+
+   <a href="journal.html">
+      <div class="pagebutton" id="journalbutton">
+      <h3>Keep tabs on important people, places, and events?</h3>
+      <p>Organize your thoughts in the journal to know who you met and where you met them.</p>
+      </div>
+   </a>
+
+   <a href="crypt.html">
+      <div class="pagebutton" id="cryptbutton">
+         <h3>Venerate your honored dead?</h3>
+         <p>Enter the crypt to remind yourself of past glory.</p>
+      </div>
+   </a>
+
+   </div>
+
+</main>
 
 </body>
+
 </html>
