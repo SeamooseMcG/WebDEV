@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="styles.css">
+   <script src="adventureAssistScripts.js"></script>
+
+   <title>Journal</title>
+
+</head>
+
+<body>
+
+   <header>
+
+      <h1>Adventure Assist</h1>
+      <h2 id="pagetitle">Title</h2>
+
+   </header>
+      
+   <nav>
+      <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="planner.html">Planner</a></li>
+         <li><a href="journal.html">Journal</a></li>
+         <li><a href="crypt.html">Crypt</a></li>
+      </ul>
+   </nav>
+
+   <main>
+
+      <section id="drafting">
+         <form id="journalentry" class="entrybox">
+
+            <label for="entrytitle">Entry Title:</label>
+            <input type="text" id="entrytitle" name="entrytitle">
+            <br>
+            <label for="entrycontent">Entry Content:</label>
+            <textarea id="entrycontent" name="entrycontent"></textarea>
+            <br>
+            <button type="submit" class="newbutton">New</button>
+
+         </form>
+      </section>
+
+      <section id="entries">
+         
+         <ol id="entrylist">
+         </ol>
+
+      </section>
+
+   </main>
+
+</body>
+
+</html>

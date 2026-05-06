@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 5px;
+    padding: 20px;
+    background-color: #999966;
+}
+
+.newbutton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.newbutton:hover {
+    background-color: #236927;
+}
+
+.box {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #cccc99;
+}
+
+.box > a {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    background-color: #ffffcc;
+
+}
+
+.entrybox {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    float: inline;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+.pagebutton {
+    border: black;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
