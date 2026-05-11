@@ -2,7 +2,7 @@ document.onload = titlePage();
 
 function titlePage() {
     const title = document.getElementById("title");
-    document.getElementById("pagetitle").textContent = title.textContent;
+    document.getElementById("pagetitle").textContent = title;
 }
 
 function existingJournalEntries() {
